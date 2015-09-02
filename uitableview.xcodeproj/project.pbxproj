@@ -7,15 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40B4794A1B6FC2AB00E12AFB /* Haneke.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40B479451B6FC29A00E12AFB /* Haneke.framework */; };
+		40B4794B1B6FC2AB00E12AFB /* Haneke.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40B479451B6FC29A00E12AFB /* Haneke.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		40B4794F1B6FDD6700E12AFB /* NewsCellWithoutImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4794E1B6FDD6700E12AFB /* NewsCellWithoutImage.swift */; };
+		40B479511B6FEA1F00E12AFB /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B479501B6FEA1F00E12AFB /* NewsDetailViewController.swift */; };
+		40B479531B71890100E12AFB /* NewsCellGeneral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B479521B71890100E12AFB /* NewsCellGeneral.swift */; };
+		40B479571B73C7D700E12AFB /* imageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B479561B73C7D700E12AFB /* imageCollectionViewController.swift */; };
+		40B4795E1B73CD1000E12AFB /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4795D1B73CD1000E12AFB /* PhotoCell.swift */; };
+		40B479601B73DFF100E12AFB /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B4795F1B73DFF100E12AFB /* PhotoDetailViewController.swift */; };
+		40B479621B743FC300E12AFB /* MyTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B479611B743FC300E12AFB /* MyTabBarController.swift */; };
+		40B479641B75159A00E12AFB /* SettingNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B479631B75159A00E12AFB /* SettingNavigationController.swift */; };
+		40CDC11B1B799605007A29BF /* NewsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CDC11A1B799605007A29BF /* NewsListViewController.swift */; };
 		40D6BAD01B6EB3DA00A3550E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6BACF1B6EB3DA00A3550E /* AppDelegate.swift */; };
 		40D6BAD21B6EB3DA00A3550E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6BAD11B6EB3DA00A3550E /* ViewController.swift */; };
 		40D6BAD51B6EB3DA00A3550E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D6BAD31B6EB3DA00A3550E /* Main.storyboard */; };
 		40D6BAD71B6EB3DA00A3550E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D6BAD61B6EB3DA00A3550E /* Images.xcassets */; };
 		40D6BADA1B6EB3DA00A3550E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40D6BAD81B6EB3DA00A3550E /* LaunchScreen.xib */; };
 		40D6BAE61B6EB3DA00A3550E /* uitableviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6BAE51B6EB3DA00A3550E /* uitableviewTests.swift */; };
+		40D6BAF21B6EBA6900A3550E /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6BAF11B6EBA6900A3550E /* SettingsTableViewController.swift */; };
+		40D6BAF41B6ECD9E00A3550E /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6BAF31B6ECD9E00A3550E /* NewsTableViewController.swift */; };
+		40D6BB061B6ECF0200A3550E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6BB051B6ECF0200A3550E /* SwiftyJSON.swift */; };
+		40D6BB081B6ECF2800A3550E /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6BB071B6ECF2800A3550E /* NetworkManager.swift */; };
+		40D6BB181B6ED07900A3550E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D6BB111B6ED06C00A3550E /* Alamofire.framework */; };
+		40D6BB191B6ED07900A3550E /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 40D6BB111B6ED06C00A3550E /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		40D6BB1F1B6EDF0C00A3550E /* NewsCellWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D6BB1E1B6EDF0C00A3550E /* NewsCellWithImage.swift */; };
+		40E6A4C21B7C16FD0042EE66 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40E6A4C11B7C16FD0042EE66 /* Post.swift */; };
+		40F5A2C61B839685008A649E /* NewsCellPlain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F5A2C51B839685008A649E /* NewsCellPlain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		40B479441B6FC29A00E12AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B4793B1B6FC29A00E12AFB /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9561980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
+		40B479461B6FC29A00E12AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B4793B1B6FC29A00E12AFB /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A095C9611980418C00CD0F4C;
+			remoteInfo = HanekeTests;
+		};
+		40B479481B6FC29A00E12AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B4793B1B6FC29A00E12AFB /* Haneke.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A0026E9A19C9BFBC004DE0C6;
+			remoteInfo = HanekeDemo;
+		};
+		40B4794C1B6FC2AB00E12AFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B4793B1B6FC29A00E12AFB /* Haneke.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = A095C9551980418C00CD0F4C;
+			remoteInfo = Haneke;
+		};
 		40D6BAE01B6EB3DA00A3550E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 40D6BAC21B6EB3DA00A3550E /* Project object */;
@@ -23,9 +71,69 @@
 			remoteGlobalIDString = 40D6BAC91B6EB3DA00A3550E;
 			remoteInfo = uitableview;
 		};
+		40D6BB101B6ED06C00A3550E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40D6BB091B6ED06C00A3550E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
+		40D6BB121B6ED06C00A3550E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40D6BB091B6ED06C00A3550E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
+			remoteInfo = "Alamofire OSX";
+		};
+		40D6BB141B6ED06C00A3550E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40D6BB091B6ED06C00A3550E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS Tests";
+		};
+		40D6BB161B6ED06C00A3550E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40D6BB091B6ED06C00A3550E /* Alamofire.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
+			remoteInfo = "Alamofire OSX Tests";
+		};
+		40D6BB1A1B6ED07900A3550E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40D6BB091B6ED06C00A3550E /* Alamofire.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
+			remoteInfo = "Alamofire iOS";
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		40D6BB1C1B6ED07900A3550E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				40B4794B1B6FC2AB00E12AFB /* Haneke.framework in Embed Frameworks */,
+				40D6BB191B6ED07900A3550E /* Alamofire.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		40B4793B1B6FC29A00E12AFB /* Haneke.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Haneke.xcodeproj; path = "../../HanekeSwift-master/Haneke.xcodeproj"; sourceTree = "<group>"; };
+		40B4794E1B6FDD6700E12AFB /* NewsCellWithoutImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCellWithoutImage.swift; sourceTree = "<group>"; };
+		40B479501B6FEA1F00E12AFB /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		40B479521B71890100E12AFB /* NewsCellGeneral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCellGeneral.swift; sourceTree = "<group>"; };
+		40B479561B73C7D700E12AFB /* imageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageCollectionViewController.swift; sourceTree = "<group>"; };
+		40B4795D1B73CD1000E12AFB /* PhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		40B4795F1B73DFF100E12AFB /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		40B479611B743FC300E12AFB /* MyTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabBarController.swift; sourceTree = "<group>"; };
+		40B479631B75159A00E12AFB /* SettingNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingNavigationController.swift; sourceTree = "<group>"; };
+		40CDC11A1B799605007A29BF /* NewsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsListViewController.swift; sourceTree = "<group>"; };
 		40D6BACA1B6EB3DA00A3550E /* uitableview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uitableview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D6BACE1B6EB3DA00A3550E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D6BACF1B6EB3DA00A3550E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +144,14 @@
 		40D6BADF1B6EB3DA00A3550E /* uitableviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = uitableviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40D6BAE41B6EB3DA00A3550E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40D6BAE51B6EB3DA00A3550E /* uitableviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uitableviewTests.swift; sourceTree = "<group>"; };
+		40D6BAF11B6EBA6900A3550E /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		40D6BAF31B6ECD9E00A3550E /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		40D6BB051B6ECF0200A3550E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		40D6BB071B6ECF2800A3550E /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		40D6BB091B6ED06C00A3550E /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../Alamofire-master 2/Alamofire.xcodeproj"; sourceTree = "<group>"; };
+		40D6BB1E1B6EDF0C00A3550E /* NewsCellWithImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCellWithImage.swift; sourceTree = "<group>"; };
+		40E6A4C11B7C16FD0042EE66 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		40F5A2C51B839685008A649E /* NewsCellPlain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCellPlain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +159,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B4794A1B6FC2AB00E12AFB /* Haneke.framework in Frameworks */,
+				40D6BB181B6ED07900A3550E /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +174,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40B4793C1B6FC29A00E12AFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B479451B6FC29A00E12AFB /* Haneke.framework */,
+				40B479471B6FC29A00E12AFB /* HanekeTests.xctest */,
+				40B479491B6FC29A00E12AFB /* HanekeDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		40D6BAC11B6EB3DA00A3550E = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +205,11 @@
 		40D6BACC1B6EB3DA00A3550E /* uitableview */ = {
 			isa = PBXGroup;
 			children = (
-				40D6BACF1B6EB3DA00A3550E /* AppDelegate.swift */,
-				40D6BAD11B6EB3DA00A3550E /* ViewController.swift */,
-				40D6BAD31B6EB3DA00A3550E /* Main.storyboard */,
+				40D6BAF01B6EB52500A3550E /* Storyboards */,
+				40D6BAF51B6ECEDE00A3550E /* Library */,
+				40E6A4BB1B7C16E90042EE66 /* Model */,
+				40D6BAEF1B6EB3E900A3550E /* ViewController */,
 				40D6BAD61B6EB3DA00A3550E /* Images.xcassets */,
-				40D6BAD81B6EB3DA00A3550E /* LaunchScreen.xib */,
 				40D6BACD1B6EB3DA00A3550E /* Supporting Files */,
 			);
 			path = uitableview;
@@ -90,6 +218,7 @@
 		40D6BACD1B6EB3DA00A3550E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				40D6BACF1B6EB3DA00A3550E /* AppDelegate.swift */,
 				40D6BACE1B6EB3DA00A3550E /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -112,6 +241,74 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		40D6BAEF1B6EB3E900A3550E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				40CDC11A1B799605007A29BF /* NewsListViewController.swift */,
+				40B479631B75159A00E12AFB /* SettingNavigationController.swift */,
+				40B479611B743FC300E12AFB /* MyTabBarController.swift */,
+				40B4795F1B73DFF100E12AFB /* PhotoDetailViewController.swift */,
+				40B479561B73C7D700E12AFB /* imageCollectionViewController.swift */,
+				40B479501B6FEA1F00E12AFB /* NewsDetailViewController.swift */,
+				40D6BAD11B6EB3DA00A3550E /* ViewController.swift */,
+				40D6BAF11B6EBA6900A3550E /* SettingsTableViewController.swift */,
+				40D6BAF31B6ECD9E00A3550E /* NewsTableViewController.swift */,
+				40D6BB1D1B6EDECF00A3550E /* UIElements */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		40D6BAF01B6EB52500A3550E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				40D6BAD81B6EB3DA00A3550E /* LaunchScreen.xib */,
+				40D6BAD31B6EB3DA00A3550E /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		40D6BAF51B6ECEDE00A3550E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				40B4793B1B6FC29A00E12AFB /* Haneke.xcodeproj */,
+				40D6BB091B6ED06C00A3550E /* Alamofire.xcodeproj */,
+				40D6BB071B6ECF2800A3550E /* NetworkManager.swift */,
+				40D6BB051B6ECF0200A3550E /* SwiftyJSON.swift */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		40D6BB0A1B6ED06C00A3550E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D6BB111B6ED06C00A3550E /* Alamofire.framework */,
+				40D6BB131B6ED06C00A3550E /* Alamofire.framework */,
+				40D6BB151B6ED06C00A3550E /* Alamofire iOS Tests.xctest */,
+				40D6BB171B6ED06C00A3550E /* Alamofire OSX Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D6BB1D1B6EDECF00A3550E /* UIElements */ = {
+			isa = PBXGroup;
+			children = (
+				40D6BB1E1B6EDF0C00A3550E /* NewsCellWithImage.swift */,
+				40B4794E1B6FDD6700E12AFB /* NewsCellWithoutImage.swift */,
+				40B479521B71890100E12AFB /* NewsCellGeneral.swift */,
+				40B4795D1B73CD1000E12AFB /* PhotoCell.swift */,
+				40F5A2C51B839685008A649E /* NewsCellPlain.swift */,
+			);
+			name = UIElements;
+			sourceTree = "<group>";
+		};
+		40E6A4BB1B7C16E90042EE66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				40E6A4C11B7C16FD0042EE66 /* Post.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +319,13 @@
 				40D6BAC61B6EB3DA00A3550E /* Sources */,
 				40D6BAC71B6EB3DA00A3550E /* Frameworks */,
 				40D6BAC81B6EB3DA00A3550E /* Resources */,
+				40D6BB1C1B6ED07900A3550E /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				40D6BB1B1B6ED07900A3550E /* PBXTargetDependency */,
+				40B4794D1B6FC2AB00E12AFB /* PBXTargetDependency */,
 			);
 			name = uitableview;
 			productName = uitableview;
@@ -179,6 +379,16 @@
 			mainGroup = 40D6BAC11B6EB3DA00A3550E;
 			productRefGroup = 40D6BACB1B6EB3DA00A3550E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 40D6BB0A1B6ED06C00A3550E /* Products */;
+					ProjectRef = 40D6BB091B6ED06C00A3550E /* Alamofire.xcodeproj */;
+				},
+				{
+					ProductGroup = 40B4793C1B6FC29A00E12AFB /* Products */;
+					ProjectRef = 40B4793B1B6FC29A00E12AFB /* Haneke.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				40D6BAC91B6EB3DA00A3550E /* uitableview */,
@@ -186,6 +396,58 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		40B479451B6FC29A00E12AFB /* Haneke.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Haneke.framework;
+			remoteRef = 40B479441B6FC29A00E12AFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40B479471B6FC29A00E12AFB /* HanekeTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = HanekeTests.xctest;
+			remoteRef = 40B479461B6FC29A00E12AFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40B479491B6FC29A00E12AFB /* HanekeDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = HanekeDemo.app;
+			remoteRef = 40B479481B6FC29A00E12AFB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40D6BB111B6ED06C00A3550E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 40D6BB101B6ED06C00A3550E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40D6BB131B6ED06C00A3550E /* Alamofire.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Alamofire.framework;
+			remoteRef = 40D6BB121B6ED06C00A3550E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40D6BB151B6ED06C00A3550E /* Alamofire iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire iOS Tests.xctest";
+			remoteRef = 40D6BB141B6ED06C00A3550E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		40D6BB171B6ED06C00A3550E /* Alamofire OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Alamofire OSX Tests.xctest";
+			remoteRef = 40D6BB161B6ED06C00A3550E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		40D6BAC81B6EB3DA00A3550E /* Resources */ = {
@@ -212,8 +474,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40B479571B73C7D700E12AFB /* imageCollectionViewController.swift in Sources */,
+				40D6BB081B6ECF2800A3550E /* NetworkManager.swift in Sources */,
+				40B4794F1B6FDD6700E12AFB /* NewsCellWithoutImage.swift in Sources */,
+				40D6BAF41B6ECD9E00A3550E /* NewsTableViewController.swift in Sources */,
+				40E6A4C21B7C16FD0042EE66 /* Post.swift in Sources */,
+				40B479641B75159A00E12AFB /* SettingNavigationController.swift in Sources */,
+				40B4795E1B73CD1000E12AFB /* PhotoCell.swift in Sources */,
+				40B479601B73DFF100E12AFB /* PhotoDetailViewController.swift in Sources */,
 				40D6BAD21B6EB3DA00A3550E /* ViewController.swift in Sources */,
+				40F5A2C61B839685008A649E /* NewsCellPlain.swift in Sources */,
+				40D6BB1F1B6EDF0C00A3550E /* NewsCellWithImage.swift in Sources */,
 				40D6BAD01B6EB3DA00A3550E /* AppDelegate.swift in Sources */,
+				40B479511B6FEA1F00E12AFB /* NewsDetailViewController.swift in Sources */,
+				40D6BB061B6ECF0200A3550E /* SwiftyJSON.swift in Sources */,
+				40D6BAF21B6EBA6900A3550E /* SettingsTableViewController.swift in Sources */,
+				40B479531B71890100E12AFB /* NewsCellGeneral.swift in Sources */,
+				40B479621B743FC300E12AFB /* MyTabBarController.swift in Sources */,
+				40CDC11B1B799605007A29BF /* NewsListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,10 +506,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		40B4794D1B6FC2AB00E12AFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Haneke;
+			targetProxy = 40B4794C1B6FC2AB00E12AFB /* PBXContainerItemProxy */;
+		};
 		40D6BAE11B6EB3DA00A3550E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 40D6BAC91B6EB3DA00A3550E /* uitableview */;
 			targetProxy = 40D6BAE01B6EB3DA00A3550E /* PBXContainerItemProxy */;
+		};
+		40D6BB1B1B6ED07900A3550E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire iOS";
+			targetProxy = 40D6BB1A1B6ED07900A3550E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -409,6 +697,7 @@
 				40D6BAEB1B6EB3DA00A3550E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40D6BAEC1B6EB3DA00A3550E /* Build configuration list for PBXNativeTarget "uitableviewTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +706,7 @@
 				40D6BAEE1B6EB3DA00A3550E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
